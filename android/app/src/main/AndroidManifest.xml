@@ -1,12 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- ✅ এখানে দাও: application ট্যাগের বাইরে -->
     <uses-permission android:name="android.permission.CAMERA" />
-
-    <!-- (ঐচ্ছিক) ডিভাইসে ক্যামেরা না থাকলেও অ্যাপ ইনস্টল হতে দিতে চাইলে -->
     <uses-feature android:name="android.hardware.camera" android:required="false"/>
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
     <application
-        android:label="duff_talk"
+        android:label="ASL Letter Recognizer"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Counter App With Bloc</string>
+	<string>ASL Letter Recognizer</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take a photo of your hand sign for offline letter recognition.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose a hand sign photo for offline letter recognition.</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
